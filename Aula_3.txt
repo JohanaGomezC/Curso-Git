@@ -1,0 +1,104 @@
+    1  ls
+    2  ls-a
+    3  ls -a
+    4  ls ..
+    5  pwd
+    6  cd
+    7  ls
+    8  cd Desktop
+    9  cd..
+   10  cd ..
+   11  cd {3D\ Objects,A{mbiente\ de\ {Impressão,Rede},pp{Data,lication\ Data}},Co{n{figurações\ Locais,tacts},okies},D{ados\ de\ Aplicativos,esktop,o{cuments,wnloads}},Favorites,IntelGraphicsProfiles,Links,M{e{nu\ Iniciar,us\ Documentos},odelos,usic},N{TUSER.DAT{,\{17d2364{1-eea5-11ed-9972-c1049389fa27\}.TxR.{0.regtrans-ms,1.regtrans-ms,2.regtrans-ms,blf},2-eea5-11ed-9972-c1049389fa27\}.TM{.blf,Container0000000000000000000{1.regtrans-ms,2.regtrans-ms}}}},ova\ pasta},OneDrive,Pictures,Recent,S{aved\ Games,e{arches,ndTo}},Videos,ansel,ntuser.{dat.LOG{1,2},ini},oficce\ 2021} 
+   12  cd ~
+   13  cd Desktop/
+   14  mkdir Comandos
+   15  ls
+   16  cd Comandos
+   17  mkdir Pasta Nova
+   18  ls
+   19  mkdir "pasta nova 1" "pasta nova 2"
+   20  ls
+   21  mkdir -p new/old
+   22  ls
+   23  ls nova
+   24  ls new
+   25  rm -r nova pasta
+   26  rm -r new
+   27  ls
+   28  rm -r 'pasta nova 1'
+   29  ls
+   30  mv 'pasta nova 2' pasta_nova
+   31  ls
+   32  mkdir new
+   33  ls
+   34  mv new pasta_nova
+   35  ls
+   36  ls pasta_nova
+   37  cd ..
+   38  ls
+   39  cd comandos
+   40  ls
+   41  cd Comandos
+   42  cd comandos
+   43  cd ..
+   44  cd Comandos
+   45  touch arquivo.txt
+   46  ls
+   47  ls pasta_nova
+   48  cp arquivo.txt pasta_nova
+   49  ls
+   50  ls pasta_nova
+   51  echo 'hola'
+   52  echo 'mensagem'
+   53  echo 'mensagem' > comando.txt
+   54  cat comando.txt
+   55  cat
+   56  cat > comando.txt
+   57  cat > pasta_nova
+   58  cat > comanto.txt
+   59  cat >> comando.txt
+   60  clear
+   61  history
+   62  history 5
+   63  clear
+   64  echo 'mensagem' > comand-txt
+   65  echo 'mensagem' > comand.txt
+   66  cat > readme.md
+   67  echo"" > readme.md
+   68  echo"" > read.md
+   69  clear
+   70  vim novoteste.txt
+   71  git config --global user.name 'Johana Gomez'
+   72  git config --global user.email 'johagomez9806@gmail.com'
+   73  git config user.name
+   74  git config user.email
+   75  cd Desktop/
+   76  mkdir Curso_Git
+   77  cd Curso_Git/
+   78  git init
+   79  git status
+   80  echo '#Aprendendo usar o Git' > readme.md
+   81  git status
+   82  git add readme.md
+   83  git status
+   84  git commit -m 'commit inicial'
+   85  git status
+   86  echo '##Aula 1' >> readme.md
+   87  git status
+   88  echo 'Johana Gomez' > participantes.txt
+   89  git status
+   90  git add .
+   91  git status
+   92  git restore --staged participantes.txt
+   93  git status
+   94  git add participantes.txt 
+   95  git status
+   96  git restore --staged . 
+   97  git status
+   98  git commit -am 'Alteração no readme'
+   99  git status
+  100  git add participantes.txt
+  101  git status
+  102  git commit -m 'Adicionado participantes.txt'
+  103  git status
+  104  history > Aula_3.txt
