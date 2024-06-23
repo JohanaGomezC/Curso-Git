@@ -1,0 +1,198 @@
+    1  ls
+    2  ls-a
+    3  ls -a
+    4  ls ..
+    5  pwd
+    6  cd
+    7  ls
+    8  cd Desktop
+    9  cd..
+   10  cd ..
+   11  cd {3D\ Objects,A{mbiente\ de\ {Impressão,Rede},pp{Data,lication\ Data}},Co{n{figurações\ Locais,tacts},okies},D{ados\ de\ Aplicativos,esktop,o{cuments,wnloads}},Favorites,IntelGraphicsProfiles,Links,M{e{nu\ Iniciar,us\ Documentos},odelos,usic},N{TUSER.DAT{,\{17d2364{1-eea5-11ed-9972-c1049389fa27\}.TxR.{0.regtrans-ms,1.regtrans-ms,2.regtrans-ms,blf},2-eea5-11ed-9972-c1049389fa27\}.TM{.blf,Container0000000000000000000{1.regtrans-ms,2.regtrans-ms}}}},ova\ pasta},OneDrive,Pictures,Recent,S{aved\ Games,e{arches,ndTo}},Videos,ansel,ntuser.{dat.LOG{1,2},ini},oficce\ 2021} 
+   12  cd ~
+   13  cd Desktop/
+   14  mkdir Comandos
+   15  ls
+   16  cd Comandos
+   17  mkdir Pasta Nova
+   18  ls
+   19  mkdir "pasta nova 1" "pasta nova 2"
+   20  ls
+   21  mkdir -p new/old
+   22  ls
+   23  ls nova
+   24  ls new
+   25  rm -r nova pasta
+   26  rm -r new
+   27  ls
+   28  rm -r 'pasta nova 1'
+   29  ls
+   30  mv 'pasta nova 2' pasta_nova
+   31  ls
+   32  mkdir new
+   33  ls
+   34  mv new pasta_nova
+   35  ls
+   36  ls pasta_nova
+   37  cd ..
+   38  ls
+   39  cd comandos
+   40  ls
+   41  cd Comandos
+   42  cd comandos
+   43  cd ..
+   44  cd Comandos
+   45  touch arquivo.txt
+   46  ls
+   47  ls pasta_nova
+   48  cp arquivo.txt pasta_nova
+   49  ls
+   50  ls pasta_nova
+   51  echo 'hola'
+   52  echo 'mensagem'
+   53  echo 'mensagem' > comando.txt
+   54  cat comando.txt
+   55  cat
+   56  cat > comando.txt
+   57  cat > pasta_nova
+   58  cat > comanto.txt
+   59  cat >> comando.txt
+   60  clear
+   61  history
+   62  history 5
+   63  clear
+   64  echo 'mensagem' > comand-txt
+   65  echo 'mensagem' > comand.txt
+   66  cat > readme.md
+   67  echo"" > readme.md
+   68  echo"" > read.md
+   69  clear
+   70  vim novoteste.txt
+   71  clear
+   72  git log
+   73  git log --pretty=onelina
+   74  git log --pretty=oneline
+   75  git log --stat
+   76  git log -p
+   77  git log -p -2
+   78  git log --since=30.minutes
+   79  git log --since=1.hour
+   80  git log --author='Johana Gomez'
+   81  git log
+   82  git status
+   83  touch teste
+   84  git add teste
+   85  git status
+   86  git commit -m 'Commit de teste'
+   87  git log
+   88  git reset --soft HEAD~
+   89  git log
+   90  git status
+   91  git commit -m 'Commit de teste'
+   92  git log
+   93  git reset --hard HEAD~
+   94  git log
+   95  git status
+   96  git log --pretty=oneline
+   97  git checkout HEAD~2
+   98  git status
+   99  git log
+  100  ls
+  101  git checkout master
+  102  git status
+  103  git log
+  104  clear
+  105  mkdir .vscode
+  106  touch conf.txt
+  107  mv conf.txt .vscode
+  108  ls .vscode/
+  109  ls
+  110  ls -a
+  111  echo '.vscode/' > .gitignore
+  112  git status
+  113  touch pessoal.conf
+  114  git status
+  115  echo 'pessoal.conf' >> .gitignore
+  116  git status
+  117  git add .gitignore
+  118  git commit -m 'Adicionado arquivo .gitignore'
+  119  git status
+  120  git log
+  121  history > Aula_4.txt
+  122  git status
+  123  git add .
+  124  git commit -m 'Comandos da Aula 4'
+  125  git log
+  126  history -c: clear
+  127  clear
+  128  history
+  129  history
+  130  history
+  131  q
+  132  git log -2
+  133  git log -p -2
+  134  ls
+  135  cd Desktop/
+  136  ls
+  137  cd Comandos
+  138  ls
+  139  cd Curso_Git
+  140  cd ~
+  141  cd Comandos
+  142  cd ..
+  143  cd Desktop
+  144  cd ..
+  145  cd.
+  146  cd..
+  147  cd ..
+  148  clear
+  149  ls
+  150  cd ..
+  151  cd Desktop
+  152  ls
+  153  cd Desktop/
+  154  ls
+  155  cd Curso_Git/
+  156  ls
+  157  git log -2
+  158  git log -p-2
+  159  git log -p -2
+  160  git log --pretty=oneline -2
+  161  clear
+  162  git branch
+  163  git checkout -b feature
+  164  git branch
+  165  git status
+  166  touch Nova_feature
+  167  git status
+  168  git add Nova_feature
+  169  git commit -m 'Adicionando nova feature'
+  170  git log
+  171  git checkout master
+  172  touch Continuando_master
+  173  git status
+  174  git add Continuando_master
+  175  git commit -m 'Adicionado continuacao na master'
+  176  git og
+  177  git log
+  178  git checkout feature
+  179  git log
+  180  git checkout -b feature2 master
+  181  git log
+  182  git brand -d feature2
+  183  git branch -d feature2
+  184  git checkout master
+  185  git branch -d feature2
+  186  git log
+  187  git checkout feature2
+  188  clear
+  189  git checkout feature
+  190  git log --pretty=oneline --graph
+  191  git merge master
+  192  git log
+  193  git log --pretty=oneline --graph
+  194  git reset --hard HEAD~
+  195  git log --pretty=oneline --graph
+  196  git rebase master
+  197  git log --pretty=oneline --graph
+  198  history > Aula_5.txt
